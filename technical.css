@@ -1,0 +1,110 @@
+:root {
+    font-size: 10px;
+}
+
+html, body {
+    box-sizing: border-box;
+    min-width: 29rem;
+}
+
+header {
+    font-size: 2.8rem;
+    margin: 1.4rem;
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif ;
+}
+nav {
+    display: block;
+    height: 100%;
+    min-width: 28.8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid rgba(0, 22, 22, 0.4);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+nav ul {
+    height: 88%;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: "Open Sans", Arial, sans-serif ;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    list-style-type: none;
+    border-top: 0.01em solid;
+    margin: 0;
+    padding: 0.12rem 0.4rem;
+    cursor: pointer;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #4d4e53;
+    padding: 1rem 3rem;
+    border-left: none;
+    
+}
+
+main {
+    position: absolute;
+    margin-left: 30rem
+}
+
+main header {
+    text-align: left;
+    margin: 2.5rem 1.7rem;
+}
+
+section article {
+    display: block;
+    position: relative;
+    font-size: 1.6rem;
+    font-family: "Open Sans", Arial, sans-serif ;
+    color: #4d4e53;
+    line-height: 2.5rem;
+    margin-left: 4rem;
+}
+
+section li {
+    margin: 1.5rem 0 0 2rem;
+}
+
+code {
+    display: block;
+    background-color: #f7f7f7;
+    position: relative;
+    text-align: left;
+    font-size: 1.2rem;
+    word-wrap: normal;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 60rem) {
+    nav header {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        position: absolute;
+        width: 100%;
+        height: 25rem;
+        z-index: 1;
+    }
+    nav ul {
+        display: list-item;
+        border: 0.1rem solid;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    main {
+        position: absolute;
+        margin: 25rem 0;
+        left: 0;
+    }
+}
