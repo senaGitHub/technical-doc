@@ -21,14 +21,14 @@
     13. **Function declarations** – How to declare functions.
     14. **Reference** – References and resources.
  
-# File Structure
+  # File Structure
 * **index.html** – The HTML file that contains the content and headers.
 * **technical.css** – The CSS file for styling the page.
 
-# Features
+  # Features
 * **Navigation Menu**: A menu on the left side allows easy navigation between different sections of the page.
 * **Code Examples**: JavaScript code examples are provided to help users better understand the concepts.
 * **Responsive Design**: The page is designed to be responsive and works well on various screen sizes.
 
-# Contributing
+  # Contributing
 * If you'd like to make suggestions or contribute to this project, feel free to fork the repository and submit a pull request.
